@@ -831,3 +831,43 @@ Basic Styling
     width: 93%;
 }
 }
+
+
+@media(max-width: 500px) {
+    #back {
+        height: 64vh;
+    }
+    .parallax-section {
+       
+        height: 75vh;
+        
+    }
+    .overlay-content h1 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 450px) {
+    #back {
+        height: 61vh;
+    }
+    .parallax-section {
+        height: 71vh;
+    }
+}
+@media (max-width: 400px) {
+    #back {
+        height: 58vh;
+    }
+    .parallax-section {
+        height: 67vh;
+    }
+}
+@media (max-width: 350px) {
+    #back {
+        height: 53vh;
+    }
+    .parallax-section {
+        height: 62vh;
+    }
+}
