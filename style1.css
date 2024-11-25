@@ -1,0 +1,493 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+  
+
+body{
+  background-image: url(bg1.jpg);
+  /* background-color: #222; */
+}
+
+/* Basic styling for navbar */
+.navbar {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+.navbar .navbar-brand h1 i {
+  color: rgb(241, 83, 194);
+  font-size: 25px;
+}
+
+/* Hover effect on navigation links */
+.navbar .navbar-nav .nav-link {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: rgb(241, 83, 194); /* Color on hover */
+}
+
+/* Active link styling */
+.navbar .navbar-nav .nav-link.active {
+  color: rgb(241, 83, 194);
+}
+
+/* Dropdown menu styling */
+.navbar .dropdown-menu {
+  background-color: #333333;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+  color: #ffffff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: rgb(241, 83, 194);
+  color: #ffffff;
+}
+
+/* Button styling */
+.navbar .btn-primary {
+  background-color: rgb(241, 83, 194);
+  border-color: rgb(241, 83, 194);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.navbar .btn-primary:hover {
+  background-color: #ffffff;
+  color: rgb(241, 83, 194);
+  border-color: #ffffff;
+}
+
+
+
+  
+  /* Contact Section */
+#Contact {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-image: url(k1.avif);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contacthead h5 {
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.contacthead h3 {
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contact form {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact form input[type="text"],
+.contact form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: none;
+}
+
+.contact form input[type="text"]::placeholder,
+.contact form textarea::placeholder {
+  color: #aaa;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn1 {
+  background-color: #f700ff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background-color: #b3002d;
+}
+
+.contactinfo {
+  text-align: left;
+  max-width: 500px;
+}
+
+.contactinfo h3 {
+  font-size: 24px;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.contactinfo i {
+  font-size: 18px;
+  color: #007bff;
+  margin-right: 10px;
+}
+
+.contactinfo br {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+  
+
+
+
+  .text-body-emphasis {
+    --bs-text-opacity: 1;
+    color: var(--bs-emphasis-color) !important;
+    text-align: center;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styling the row */
+.flow {
+  display: flex;
+  justify-content: space-between; /* Space between images */
+  gap: 16px;                      /* Space between image containers */
+  margin: 0 auto;
+  max-width: 95%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Container for each image */
+.flow {
+  flex: 1;                         /* Each image takes equal space */
+  overflow: hidden;                /* Prevents image overflow */
+  text-align: center;              /* Center the text under the image */
+  border-radius: 10px;             /* Optional rounded corners */
+  box-shadow: 0 4px 8px rgba(8, 8, 8, 0.2); /* Optional shadow */
+}
+
+/* Image styling */
+.flow img {
+  width: 100%;                     /* Full width within the container */
+  height: auto;                    /* Maintain aspect ratio */
+  display: block;
+}
+/* Responsive design for smaller screens */
+@media (max-width: 767px) {
+  .image-row {
+      flex-direction: column;       /* Stack images vertically on smaller screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sol-sm-12 {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+  color: #333;
+}
+
+.text-content h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.text-content p {
+  font-size: 14px;
+  color: #555;
+}
+
+.newsletter .form-control {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  font-size: 16px;
+  color: #333;
+}
+
+.newsletter .form-control:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 4px rgba(158, 33, 53, 0.25);
+}
+
+.main-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: black;
+  background-color: rgb(241, 83, 194);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.main-btn:hover {
+  background-color: rgb(185, 173, 152);
+}
+
+@media (max-width: 768px) {
+  .text-content h2 {
+    font-size: 20px;
+  }
+  .text-content p {
+    font-size: 13px;
+  }
+  .main-btn, .form-control {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+.flow:hover .overlay-text {
+  opacity: 1;
+}
+.flow img:hover {
+  transform: scale(1.1);
+  filter: brightness(50%);
+}
+/* Overlay Text */
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+.overlay-text h2 {
+  font-size: 30px;
+  margin: 0 0 10px;
+}
+.overlay-text button {
+  padding: 8px 16px;
+  background-color: #444141;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.overlay-text button:hover {
+  background-color: #ff00f2;
+}
+.container {
+  text-align: center;
+  /* margin: 2em auto; */
+}
+h1 {
+  font-size: 4.5em;
+  margin-bottom: 0.5em;
+}
+/* Image container styling */
+.flow > .flow {
+  position: relative;
+  
+}
+.flow:hover img {
+  transform: scale(1.1);
+}
+
+
+
+.text-light{
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.overlay-container {
+  position: relative;
+  max-width: 800px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.overlay-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.overlay-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.overlay-text button {
+  padding: 10px 20px;
+  background-color: #444141;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.overlay-text button:hover {
+  background-color: #e677cd;
+}
+@media (max-width: 1015px) {
+  .overlay-text h2 {
+    font-size: 12px;
+    display: none;
+  }
+
+  .overlay-text p {
+    font-size: 1rem;
+    display: none;
+  }
+
+  .overlay-text button {
+    font-size: 10px;
+    padding: 8px 16px;
+    display: none;
+  }
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .overlay-text h2 {
+    font-size: 12px;
+    display: none;
+  }
+
+  .overlay-text p {
+    font-size: 1rem;
+    display: none;
+  }
+
+  .overlay-text button {
+    font-size: 10px;
+    padding: 8px 16px;
+    display: none;
+  }
+}
+
+/* @media(max-width:350px){
+  img, svg {
+    vertical-align: middle;
+    width: 93%;
+}
+} */
